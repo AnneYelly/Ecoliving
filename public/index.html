@@ -1,0 +1,244 @@
+<!-- index.html -->
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>EcoLiving — Ahorra agua, luz y gas</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="public/assets/css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#inicio">
+        <span class="brand-mark" aria-hidden="true">
+          <img src="public/assets/images/ecoliving.jpg" alt="Logo EcoLiving" />
+        </span>
+        <span class="brand-text">EcoLiving</span>
+      </a>
+
+      <nav class="menu">
+        <a href="#inicio">Inicio</a>
+        <a href="#funcionalidades">Funcionalidades</a>
+        <a href="#planes">Planes</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+
+      <a class="btn btn-primary" href="#download">Descarga la app</a>
+    </div>
+  </header>
+
+  <main id="inicio">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-media" aria-hidden="true">
+          <div class="hero-logo">
+            <img src="public/assets/images/ecoliving-removebg-preview.png" alt="Logo EcoLiving grande" class="hero-logo-image" loading="lazy" />
+          </div>
+        </div>
+
+        <div class="hero-copy">
+          <h1 class="h1">
+            Ahorra <span>agua, luz</span> y <span>gas</span> desde hoy
+          </h1>
+
+          <ul class="list-check">
+            <li>Registra tu consumo fácilmente</li>
+            <li>Recibe alertas personalizadas</li>
+            <li>Obtén consejos de ahorro</li>
+          </ul>
+
+          <a class="btn btn-primary" href="#download">Descarga la app</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="funcionalidades" class="section">
+      <div class="container features-grid">
+        <div class="features-cards">
+          <article class="card">
+            <div class="icon">
+              <img src="public/assets/images/grafic.png" alt="Icono de simulador de ahorro" class="icon-image" loading="lazy" />
+            </div>
+            <h3 class="card-title">Simulador de ahorro</h3>
+            <p>Proyecta cuánto ahorrarás ajustando hábitos y metas.</p>
+          </article>
+
+          <article class="card">
+            <div class="icon">
+              <img src="public/assets/images/tv.png" alt="Icono de alertas" class="icon-image" loading="lazy" />
+            </div>
+            <h3 class="card-title">Alertas preventivas</h3>
+            <p>Notificaciones ante consumos pico o fugas.</p>
+          </article>
+
+          <article class="card">
+            <div class="icon">
+              <img src="public/assets/images/panel.png" alt="Icono de panel de consumo" class="icon-image" loading="lazy" />
+            </div>
+            <h3 class="card-title">Panel de consumo</h3>
+            <p>Historial claro por día, semana y mes.</p>
+          </article>
+
+          <article class="card">
+            <div class="icon">
+              <img src="public/assets/images/alert.png" alt="Icono de gas" class="icon-image" loading="lazy" />
+            </div>
+            <h3 class="card-title">Alerta de gas</h3>
+            <p>Alertas que realmente importan.</p>
+          </article>
+        </div>
+
+        <aside class="feature-aside">
+          <p>
+            Controla tus gastos, detecta fugas y recibe recomendaciones personalizadas.
+            Se acomoda a tus medidores y a tu estilo de vida.
+          </p>
+          <a class="btn btn-ghost" href="#planes">Empieza ahora</a>
+        </aside>
+      </div>
+    </section>
+
+    <section id="planes" class="section section-muted">
+      <div class="container">
+        <h2 class="h2 center">Planes y precios</h2>
+
+        <div class="pricing">
+          <article class="plan">
+            <header class="plan-head">
+              <h3>Gratis</h3>
+              <div class="price">
+                <span class="price-main">$0</span>
+                <span class="price-sub">/ mes</span>
+              </div>
+              <div class="price-note">$0 / año</div>
+            </header>
+            <ul class="plan-list">
+              <li>1 hogar</li>
+              <li>1 medidor de servicio</li>
+              <li>Historial de 30 días</li>
+              <li>Alertas básicas</li>
+              <li>Sin exportación</li>
+            </ul>
+            <a href="#" class="btn btn-outline">Comenzar gratis</a>
+          </article>
+
+          <article class="plan plan-premium">
+            <header class="plan-head">
+              <h3>Premium</h3>
+              <div class="price">
+                <span class="price-main">$4.99</span>
+                <span class="price-sub">/ mes</span>
+              </div>
+              <div class="price-note">$47.90 / año</div>
+            </header>
+            <ul class="plan-list">
+              <li>Soporte prioritario</li>
+              <li>Medidores ilimitados</li>
+              <li>Historial de 24 meses</li>
+              <li>Alertas en tiempo real</li>
+              <li>Exportación CSV/JSON</li>
+            </ul>
+            <a href="#" class="btn btn-primary">Elegir premium</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2 class="h2 center">Testimonios</h2>
+        <div class="testimonials">
+          <article class="t-card">
+            <p class="t-quote">“Muy fácil de usar, bajé un 22% mi consumo de agua”.</p>
+            <span class="t-meta">Lucía – Lima</span>
+          </article>
+
+          <article class="t-card">
+            <p class="t-quote">“El panel semanal me mostró picos y ajusté horarios”.</p>
+            <span class="t-meta">Carlos – Arequipa</span>
+          </article>
+
+          <article class="t-card">
+            <p class="t-quote">“El simulador nos ayudó a fijar metas familiares”.</p>
+            <span class="t-meta">Jorge – Trujillo</span>
+          </article>
+
+          <article class="t-card">
+            <p class="t-quote">“Tengo un mejor monitoreo de los gastos de mi casa”.</p>
+            <span class="t-meta">Pedro – Ancash</span>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contacto" class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <div class="brand brand--footer">
+          <span class="brand-mark" aria-hidden="true">
+            <img src="public/assets/images/ecoliving.jpg" alt="Logo EcoLiving" />
+          </span>
+          <span class="brand-text">EcoLiving</span>
+        </div>
+        <div class="social">
+          <a href="#" aria-label="Instagram" class="social-link">
+            <img src="public/assets/images/Logo%20Instagram.png" alt="Instagram" class="icon-image" loading="lazy" />
+          </a>
+          <a href="#" aria-label="YouTube" class="social-link">
+            <img src="public/assets/images/Logo%20YouTube.png" alt="YouTube" class="icon-image" loading="lazy" />
+          </a>
+          <a href="#" aria-label="LinkedIn" class="social-link">
+            <img src="public/assets/images/LinkedIn.png" alt="LinkedIn" class="icon-image" loading="lazy" />
+          </a>
+          <a href="#" aria-label="X" class="social-link">
+            <img src="public/assets/images/X Logo.png" alt="X" class="icon-image" loading="lazy" />
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Casos de uso</h4>
+        <ul>
+          <li><a href="#">Monitoreo de consumo energético</a></li>
+          <li><a href="#">Control de gasto de agua</a></li>
+          <li><a href="#">Alertas de uso ineficiente</a></li>
+          <li><a href="#">Recomendaciones sostenibles</a></li>
+          <li><a href="#">Gamificación ecológica</a></li>
+          <li><a href="#">Análisis en tiempo real</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Explora</h4>
+        <ul>
+          <li><a href="#">Cómo funciona EcoLiving</a></li>
+          <li><a href="#">Beneficios para tu hogar</a></li>
+          <li><a href="#">Planes y suscripciones</a></li>
+          <li><a href="#">Comunidad EcoLiving</a></li>
+          <li><a href="#">Historias de usuarios</a></li>
+          <li><a href="#">Nuestra misión y visión</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Recursos</h4>
+        <ul>
+          <li><a href="#">Blog de sostenibilidad</a></li>
+          <li><a href="#">Guía de ahorro en el hogar</a></li>
+          <li><a href="#">Soporte técnico</a></li>
+          <li><a href="#">Preguntas frecuentes</a></li>
+          <li><a href="#">Contacto</a></li>
+          <li><a href="#">Política de privacidad</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
