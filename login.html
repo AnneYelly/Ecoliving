@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iniciar sesión | EcoLiving</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="auth-background">
+
+  <a href="index.html" class="back-btn">← Volver</a>
+
+  <div class="login-container">
+    <h2>Iniciar sesión</h2>
+
+    <input id="email" type="email" placeholder="Correo electrónico">
+    <input id="password" type="password" placeholder="Contraseña">
+
+    <button class="btn btn-primary" onclick="login()">Entrar</button>
+
+    <p>¿No tienes cuenta?  
+      <a href="register.html">Crear cuenta</a>
+    </p>
+  </div>
+
+  <script type="module" src="scripts/auth.js"></script>
+</body>
+</html>
