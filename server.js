@@ -6,7 +6,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const API_KEY = "AIzaSyBo47cJLR7DmsGykc073ebf_ui2IqD2Mz0";
+const API_KEY = "AIzaSyB_neb8Lloe634lgAkAAiqnTkAYV_8zmRo";
 const genAI = new GoogleGenAI({ apiKey: API_KEY });
 const MODEL = "gemini-2.5-flash";
 
@@ -66,3 +66,4 @@ app.post("/chat", async (req, res) => {
 app.listen(3000, () =>
   console.log("🔥 EcoBot funcionando en http://localhost:3000")
 );
+
